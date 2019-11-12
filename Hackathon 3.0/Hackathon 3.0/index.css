@@ -1,0 +1,66 @@
+body
+{
+margin:0 auto;
+padding:0px;
+}
+.myheader
+{
+background:white;
+padding: 10px 5px;
+height:100px;
+width:100%;
+}
+.container
+{
+margin:0 auto;
+width:1170px;
+
+}
+.logo
+{
+
+font-size:18px;
+height:208px;
+position:absolute;
+}
+
+.menu
+{
+float:right;
+margin-top:205px;
+}
+ul li
+{
+list-style:none;
+font-size:19px;
+float:left;
+font-family:Arial, Helvetica, sans-serif;
+padding:10px;
+color:#000000;
+cursor:pointer;
+}
+ul li:focus
+{
+color:#FF9900;
+}
+a:-webkit-any-link {
+    text-decoration: none;
+}
+
+.clearfix
+{clear:both;}
+
+.myslider
+{
+    width: 100%;
+    position: absolute;
+    margin-top: 175px;
+	z-index:-1;
+	
+}
+.indexmenu
+{
+z-index:1;
+margin-top:210px;
+margin-left:34px;
+position:absolute;}
